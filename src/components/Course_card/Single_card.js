@@ -21,27 +21,32 @@ function Single_card(props) {
             </Single_card_tools>
             <Single_card_editor>
             <Single_card_tools1>
-            {props.logo1}
+            <img src={props.logo1} style={{height:'25px',width:'25px',verticalAlign:'middle',borderRadius:'100px'}}></img> &nbsp;
             {props.tools1}
             </Single_card_tools1>
             <Single_card_tools2>
-            {props.logo2}
+            <img src={props.logo2} style={{height:'25px',width:'25px',verticalAlign:'middle',borderRadius:'100px'}}></img> &nbsp;
+
             {props.tools2}
             </Single_card_tools2>
             <Single_card_tools3>
-            {props.logo3}
+            <img src={props.logo3} style={{height:'25px',width:'25px',verticalAlign:'middle',borderRadius:'100px'}}></img> &nbsp;
+
             {props.tools3}
             </Single_card_tools3>
             <Single_card_tools4>
-            {props.logo4}
+            <img src={props.logo4} style={{height:'25px',width:'25px',verticalAlign:'middle',borderRadius:'100px'}}></img> &nbsp;
+
             {props.tools4}
             </Single_card_tools4>
             <Single_card_tools5>
-            {props.logo5}
+            <img src={props.logo5} style={{height:'25px',width:'25px',verticalAlign:'middle',borderRadius:'100px'}}></img> &nbsp;
+
             {props.tools5}
             </Single_card_tools5>
             <Single_card_tools6>
-            {props.logo6}
+            <img src={props.logo6} style={{height:'25px',width:'25px',verticalAlign:'middle',borderRadius:'100px'}}></img> &nbsp;
+
             {props.tools6}
             </Single_card_tools6>
                 
